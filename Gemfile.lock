@@ -137,6 +137,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  mime-types (~> 2.6.2)
   pg
   rails (= 4.1.7)
   rails_12factor
