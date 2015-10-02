@@ -76,10 +76,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  # Set Aws region
-  Aws.config[:region]
-  ENV['us-standard']
-
   # Sets Paperclip to upload images to Amazon S3  
 
   config.paperclip_defaults = {
